@@ -110,13 +110,13 @@
   gap: 60px;
 }
 
-header {
+.header {
   display: flex;
   justify-content: space-between;
   height: 70px;
   align-items: center;
   padding: 0 200px;
-  background-color: #F8FBFF;
+  background-color: #ecfdff;
 }
 
 .nav-links {
@@ -167,4 +167,50 @@ a {
 .dropdown {
   position: relative;
   display: inline-block;
+}
+
+.praduct-section {
+  display: flex;
+  justify-content: center;
+  background-color: #ecfdff;
+}
+
+.praduct-section-bigDiv {
+  display: flex;
+  padding: 150px;
+}
+
+.praduct-right-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.praduct-right-div h1 {
+  width: 90%;
+  font-size: 66px;
+  font-weight: 700;
+  font-family: "Poppins", serif;
+  line-height: 1.1;
+}
+.praduct-right-div p {
+  width: 90%;
+  font-size: 15px;
+  font-weight: 300;
+  font-family: "Poppins", serif;
+}
+.praduct-right-div button {
+  width: 170px;
+  height: 55px;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: 500;
+  font-family: "Poppins", serif;
+  color: white;
+  background-color: #ff3c3d;
+  padding: 0;
+  border: none;
+}
+
+.praduct-section-img-div {
+  width: 70%;
 }/*# sourceMappingURL=main.css.map */
